@@ -61,3 +61,8 @@ export const main = (req, res) => {
 
     res.status(200).json({name:req.user.name, message: 'Welcome to main page'})
 }
+
+
+export const logout = (req, res) => {
+    res.clearCookie("token").status(200).json({message: 'Logout Successful'})
+} 
