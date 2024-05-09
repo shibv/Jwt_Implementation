@@ -30,7 +30,7 @@ function Login() {
 
   return (
     <div className='w-full h-full flex justify-center items-center'>
-        <div className=' bg-blue-300 rounded-lg w-[50%] p-6 flex flex-col gap-2' style={{margin: '0 auto'}}>
+        <div className=' bg-blue-300 rounded-lg sm:w-[50%] w-[90%] p-6 flex flex-col gap-2' style={{margin: '0 auto'}}>
             <h1 className='text-3xl font-bold'>Login</h1>
             <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder='email' className='p-2 rounded-md' />
             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder='password' className='p-2 rounded-md' />
