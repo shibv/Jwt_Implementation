@@ -39,6 +39,7 @@ function Register() {
             <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder='email' className='p-2 rounded-md' />
             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder='password' className='p-2 rounded-md' />
             <button onClick={handleSubmit} className='bg-blue-400 p-2 rounded-md hover:bg-blue-500 hover:scale-105 transition-all duration-500 '>Register</button>
+            <p className='text-sm mx-auto '>Do you have an account ? <a className='text-blue-500' href="/login">Login</a></p>
         </div>
     </div>
   )

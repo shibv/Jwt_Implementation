@@ -34,7 +34,8 @@ function Login() {
             <h1 className='text-3xl font-bold'>Login</h1>
             <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder='email' className='p-2 rounded-md' />
             <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder='password' className='p-2 rounded-md' />
-            <button onClick={handleSubmit} className='bg-blue-400 p-2 rounded-md hover:bg-blue-500 '>Login</button>
+            <button onClick={handleSubmit} className='bg-blue-400 p-2 rounded-md hover:bg-blue-500 hover:scale-105 transition-all duration-500'>Login</button>
+            <p className='text-sm mx-auto ' >Do not have an account ? <a className='text-blue-500' href="/register">Register</a></p>
         </div>
     </div>
   )
