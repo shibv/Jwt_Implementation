@@ -56,3 +56,8 @@ export const login = async(req, res) => {
    })
    
 }
+
+export const main = (req, res) => {
+
+    res.status(200).json({name:req.user.name, message: 'Welcome to main page'})
+}
