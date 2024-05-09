@@ -18,7 +18,13 @@ This project implements a user authentication system using JSON Web Tokens (JWT)
     cd jwt
 3. Set up environment variables:
 - Create a .env file in the root directory.
-- Add the following environment variables:
+Add the following environment variables:-
+**DB_HOST**=localhost
+**DB_USER**=your_database_username
+**DB_PASSWORD**=your_database_password
+**DB_NAME**=your_database_name
+**JWT_SECRET**=your_jwt_secret
+
 3. Navigate to the `/` directory in your terminal:
 
    ```bash
